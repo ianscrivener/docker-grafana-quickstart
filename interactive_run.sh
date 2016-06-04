@@ -4,5 +4,5 @@ docker run -it --rm=true \
     -v /root/data/data/:/var/lib/grafana \
     -v /root/data/logs/:/var/log/grafana \
     -v /root/data/conf/:/opt/grafana/conf \
-    --name grafana
+    --name grafana \
     grafana/grafana
