@@ -4,6 +4,6 @@ docker run -it --rm=true \
     -v /root/data/grafana/data/:/var/lib/grafana \
     -v /root/data/grafana/logs/var/log/grafana \
     -v /root/data/grafana/plugins/:/var/lib/grafana/plugins \
-    -v /root/data/grafana/conf/:/etc/grafana/ \
+    -v /root/data/grafana/config/:/etc/grafana/ \
     --name grafana \
     grafana/grafana
