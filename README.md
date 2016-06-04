@@ -12,7 +12,16 @@ cd docker-grafana-quickstart
 ./setup.sh
 
 ./interactive_run.sh
+
 ```
+
+Point your browser to http://x.x.x.x:3000/
+
+user: admin
+
+pass: admin
+
+
 
 ####Explanation
 
