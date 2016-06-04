@@ -27,9 +27,10 @@ pass: admin
 
 **setup.sh**
 
-- creates a persistant data directory at `/root/data/grafana`
-- creates a persistant logs directory at `/root/logs/grafana`
-- creates a persistant conf directory at `/root/conf/grafana`
+- creates a persistant data directory at `/root/data/grafana/data`
+- creates a persistant logs directory at `/root/data/grafana/logs`
+- creates a persistant config directory at `/root/data/grafana/config`
+- creates a persistant plugins directory at `/root/data/grafana/plugins`
 
 
 
@@ -51,10 +52,14 @@ pass: admin
 
 
 ####Configuration
-- edit `/root/conf/grafana`
+- edit `/root/data/grafana/config/grafana.ini`
 
 
 
 ####Refereneces & acknowledgments
 
 Dockerhub - [https://hub.docker.com/r/grafana/grafana/](https://hub.docker.com/r/grafana/grafana/)
+
+Github - [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
+
+Grafana Home - [http://grafana.org/](http://grafana.org/)
