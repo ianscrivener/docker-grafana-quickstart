@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker run -d --rm \
+docker run -d \
     -p 3000:3000 \
     -v /root/data/grafana/data/:/var/lib/grafana \
     -v /root/data/grafana/logs/var/log/grafana \
