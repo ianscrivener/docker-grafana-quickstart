@@ -3,7 +3,7 @@ Some shells scripts to get started quickly with grafana on Docker.
 
 
 
-####Quickstart
+## Quickstart
 ```
 git clone https://github.com/ianscrivener/docker-grafana-quickstart
  
@@ -23,7 +23,7 @@ pass: admin
 
 
 
-####Explanation
+## Explanation
 
 **setup.sh**
 
@@ -51,12 +51,12 @@ pass: admin
 - deletes the container on shutdown
 
 
-####Configuration
+## Configuration
 - edit `/root/data/grafana/config/grafana.ini`
 
 
 
-####Refereneces & acknowledgments
+## Refereneces & acknowledgments
 
 Dockerhub - [https://hub.docker.com/r/grafana/grafana/](https://hub.docker.com/r/grafana/grafana/)
 
